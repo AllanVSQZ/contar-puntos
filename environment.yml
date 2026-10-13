@@ -1,0 +1,15 @@
+# Entorno para contar_puntos.py
+# Crear:     conda env create -f environment.yml
+# Activar:   conda activate conteo-puntos
+# Usar:      python contar_puntos.py carpeta_fotos
+name: conteo-puntos
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - scikit-image
+  - pandas
+  - openpyxl
+  - opencv          # en conda-forge, "opencv" equivale a opencv-python de pip
