@@ -1,4 +1,8 @@
-Vamos a escribir un cóodigo de Python para contabilzar puntos verdes fluorescentes en fotos de microscopía de fluorescencia, las imagenes son la denominada Ejemplo.jpeg, solo se deben contabilizar los puntos que se encuentran dentro de los 16 cuadros "cuadrados" y no los que están en las líneas más juntas de los extremos.
+Vamos a escribir un cóodigo de Python para contabilzar puntos verdes fluorescentes en fotos de microscopía de fluorescencia, ejemplo la siguiente:
+
+<img width="800" height="600" alt="Ejemplo" src="https://github.com/user-attachments/assets/9d0cb71a-d69a-4acf-9411-93d04ddca7d8" />
+
+Solo se deben contabilizar los puntos que se encuentran dentro de los 16 cuadros "cuadrados" y no los que están en las líneas más juntas de los extremos.
 
 Las imagenes se colocan en un folder.
 
@@ -7,7 +11,10 @@ El script genera dos cosas:
 conteos.xlsx, con dos hojas:
 - Resumen: imagen, total, promedio y desviación estándar entre cuadros.
 - Por_cuadro: el recuento de cada cuadro, de A1 a D4.
-Una carpeta control/ con cada foto anotada: la cuadrícula detectada, el número de cada cuadro y cada punto contado marcado en rojo. Así puedes verificar a ojo que todo cuadra. (Ver Ejemplo_control.jpg)
+Una carpeta control/ con cada foto anotada: la cuadrícula detectada, el número de cada cuadro y cada punto contado marcado en rojo. Así puedes verificar a ojo que todo cuadra.
+
+<img width="800" height="600" alt="IMG_5610_control" src="https://github.com/user-attachments/assets/dda4511e-2013-4fd6-992d-deeb4b636364" />
+
 
 Cómo funciona
 
