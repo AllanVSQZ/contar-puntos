@@ -22,3 +22,10 @@ Cuadrícula: busca 5 líneas verticales y 5 horizontales equiespaciadas cuyos in
 Puntos: usa un filtro top-hat seguido de máximos locales. Esto separa bien los puntos que están pegados en parejas. Los puntos que caen sobre las líneas no se cuentan.
 
 Ajuste de sensibilidad: el parámetro --umbral (25 por defecto) controla qué tan brillante debe ser un punto para contarse. Entre 15 y 45 el total varía aproximadamente ±5% (3072 a 2627). Súbelo si notas que cuenta ruido de fondo y bájalo si omite puntos tenues. Lo ideal es calibrarlo una vez contando a mano un par de cuadros y comparando con el resultado del script.
+
+Para crearlo y usarlo:
+
+conda env create -f environment.yml
+conda activate conteo-puntos
+python contar_puntos.py carpeta_fotos
+
