@@ -1,4 +1,4 @@
-Vamos a escribir un cóodigo de Python para contabilzar puntos verdes fluorescentes en fotos de microscopía de fluorescencia, ejemplo la siguiente:
+Vamos a escribir un código de Python para contabilzar puntos verdes fluorescentes en fotos de microscopía de fluorescencia, ejemplo la siguiente:
 
 <img width="400" height="300" alt="Ejemplo" src="https://github.com/user-attachments/assets/9d0cb71a-d69a-4acf-9411-93d04ddca7d8" />
 
@@ -29,3 +29,7 @@ conda env create -f environment.yml
 conda activate conteo-puntos
 python contar_puntos.py carpeta_fotos
 
+En servidores:
+
+pip install opencv-python-headless numpy scipy scikit-image pandas openpyxl
+python contar_puntos.py carpeta_fotos
